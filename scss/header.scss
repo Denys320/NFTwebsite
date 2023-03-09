@@ -65,6 +65,17 @@ p {
     transform: translate(-50%, -94%);
 
   }
+
+  & .section-drops__blur {
+    position: absolute;
+    background: rgba(215, 29, 97, 0.6);
+    filter: blur(200px);
+    width: 450px;
+    height: 390px;
+    border-radius: 50%;
+    top: -40px;
+    right: -160px;
+  }
 }
 
 .section-drops__list {
@@ -78,6 +89,7 @@ p {
     border-radius: 12px;
     width: 312px;
     height: 435px;
+    z-index: 3;
   }
 }
 
@@ -380,6 +392,17 @@ p {
     left: 50%;
     transform: translate(-50%, -94%);
 
+  }
+
+  & .section-trending__blur {
+    position: absolute;
+    background: rgba(215, 29, 97, 0.6);
+    filter: blur(200px);
+    width: 364px;
+    height: 318px;
+    border-radius: 50%;
+    top: -40px;
+    right: -160px;
   }
 }
 
