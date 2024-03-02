@@ -23,8 +23,8 @@ li,
 p {
   margin: 0;
   padding: 0;
-  list-style: none;
-  text-decoration: none;
+  //list-style: none;//
+  //text-decoration: none;//
 }
 
 .container {
@@ -52,7 +52,7 @@ p {
   font-weight: 500;
   font-size: 20px;
   line-height: 1;
-
+  text-decoration: none;
   margin-left: 52px;
 
   &::before {
@@ -71,7 +71,7 @@ p {
   }
 }
 
-.nav__logo-img {
+.nav-logo-img {
   position: absolute;
   fill: $main-text-color;
   left: 14px;
@@ -79,11 +79,13 @@ p {
 }
 
 
-.nav__site {
+.nav-site {
   display: flex;
   justify-content: space-between;
   margin-left: 230px;
   width: 321px;
+  list-style: none;
+  text-decoration: none;
 
   & a {
     color: $main-text-color;
@@ -93,7 +95,7 @@ p {
 }
 
 
-.nav__form {
+.nav-form {
   display: flex;
   justify-content: flex-end;
   position: relative;
@@ -126,7 +128,7 @@ p {
 
 }
 
-.nav__form-icon {
+.nav-form-icon {
   position: absolute;
   top: 12px;
   left: 150px;
